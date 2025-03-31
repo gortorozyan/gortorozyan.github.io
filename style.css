@@ -245,16 +245,16 @@ article { display: none; }
 
 .info-more-btn {
     position: absolute;
-    top: -15px;
-    right: -15px;
+    top: -10px;
+    right: -10px;
     border-radius: 0 5px;
     font-size: 15px;
     color: var(--orange-yellow-crayola);
-
-    padding: 5px;
+    padding: 10px;
     box-shadow: var(--shadow2);
     transition: var(--transition1);
     z-index: 1;
+    border-bottom-left-radius:15px;
 }
 
     .info-more-btn::before {
@@ -1661,6 +1661,5 @@ font-weight: var(--fw600);
         font-weight:900;
     }
 }
-
 
 
