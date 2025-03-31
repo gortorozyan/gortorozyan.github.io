@@ -1655,6 +1655,10 @@ font-weight: var(--fw600);
         padding-left: 15px; /* Adds spacing for better appearance */
         font-weight:600;
     }
+    .navbar{
+        position: fixed;
+        margin-top:100px;
+    }
 }
 
 
