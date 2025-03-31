@@ -100,54 +100,54 @@ const courseData = {
   javascript: {
     title: "JavaScript Course",
     lessons: [
-        'JavaScript ծրագրավորման խորացված դասընթաց',
-        'Դասընթացի տևողություն՝ 5 ամիս, շաբաթական՝ 2 պարապմունք (1.5-2 ժամ տևողությամբ)',
-        'Դասընթացի ամսական վճարը՝ 30,000 դրամ',
+        'Advanced JavaScript Programming Course',
+        'Course duration: 4.5 months, 2 sessions per week (1.5-2 hours each)',
+        'Monthly fee: 30,000 AMD',
     ],
     opt_value: 'js_opt'
   },
   php: {
     title: "PHP(laravel) Course",
     lessons: [
-      'PHP(laravel) ծրագրավորման խորացված դասընթաց',
-      'Դասընթացի տևողություն՝ 4 ամիս, շաբաթական՝ 2 պարապմունք (1.5-2 ժամ տևողությամբ)',
-      'Դասընթացի ամսական վճարը՝ 30,000 դրամ',
+      'Advanced PHP(laravel) Programming Course',
+      'Course duration: 4 months, 2 sessions per week (1.5-2 hours each)',
+      'Monthly fee: 30,000 AMD',
     ],
     opt_value: 'php_opt'
   },
   python: {
     title: "Python Course",
     lessons: [
-      'Python ծրագրավորման խորացված դասընթաց',
-      'Դասընթացի տևողություն՝ 3 ամիս, շաբաթական՝ 2 պարապմունք (1.5-2 ժամ տևողությամբ)',
-      'Դասընթացի ամսական վճարը՝ 40,000 դրամ',
+      'Advanced Python Programming Course',
+      'Course duration: 3 months, 2 sessions per week (1.5-2 hours each)',
+      'Monthly fee: 40,000 AMD',
     ],
     opt_value: 'py_opt'
   },
   react_js: {
     title: "React.js Course",
     lessons: [
-      'React.js ծրագրավորման խորացված դասընթաց',
-      'Դասընթացի տևողություն՝ 4 ամիս, շաբաթական՝ 2 պարապմունք (1.5-2 ժամ տևողությամբ)',
-      'Դասընթացի ամսական վճարը՝ 50,000 դրամ',
+      'Advanced React.js Programming Course',
+      'Course duration: 4 months, 2 sessions per week (1.5-2 hours each)',
+      'Monthly fee: 40,000 AMD',
     ],
     opt_value: 'react_opt'
   },
   next_js: {
     title: "Next.js Course",
     lessons: [
-      'Next.js ծրագրավորման խորացված դասընթաց',
-      'Դասընթացի տևողություն՝ 3 ամիս, շաբաթական՝ 2 պարապմունք (1.5-2 ժամ տևողությամբ)',
-      'Դասընթացի ամսական վճարը՝ 50,000 դրամ', 
+      'Advanced Next.js Programming Course',
+      'Course duration: 3 months, 2 sessions per week (1.5-2 hours each)',
+      'Monthly fee: 40,000 AMD',
     ],
     opt_value: 'next_opt'
   }, 
   django: {
     title: "Python(Django) Course",
     lessons: [
-      'Python ծրագրավորման խորացված դասընթաց',
-      'Դասընթացի տևողություն՝ 5 ամիս, շաբաթական՝ 2 պարապմունք (1.5-2 ժամ տևողությամբ)',
-      'Դասընթացի ամսական վճարը՝ 50,000 դրամ',
+      'Advanced Python(Django) Programming Course',
+      'Course duration: 5 months, 2 sessions per week (1.5-2 hours each)',
+      'Monthly fee: 40,000 AMD',
     ],
     opt_value: 'django_opt'
   }

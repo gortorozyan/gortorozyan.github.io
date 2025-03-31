@@ -63,8 +63,8 @@ App.define("Home", () => `
     </div>
     <ul class='media-logos'>
       <li><a href=''><i class="fa-brands fa-square-instagram"></i></a></li>
-      <li><a href=''><i class="fa-brands fa-square-facebook"></i></a></li>
-      <li><a href=''><i class="fa-brands fa-linkedin"></i></a></li>
+      <li><a href='https://www.facebook.com/people/Codeenex/61574522297381/?notif_id=1743427845595784&notif_t=profile_plus_admin_invite&ref=notif'><i class="fa-brands fa-square-facebook"></i></a></li>
+      <li><a href='https://linkedin.com/company/codeenex-it-company'><i class="fa-brands fa-linkedin"></i></a></li>
       <li id='footer-last-text'>© All Rights Reserved |    Codeenex 2025</li>
     </ul>
 
