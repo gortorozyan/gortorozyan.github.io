@@ -1637,6 +1637,12 @@ font-weight: var(--fw600);
         margin-left:20px;
         margin-top:10px;
     }
+    .data_course_btn_apply{
+        height:50px;
+        width:50%;
+        margin-left:25%;
+        font-size:12px;
+    }
 }
 
 

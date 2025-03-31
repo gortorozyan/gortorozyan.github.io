@@ -102,7 +102,7 @@ App.define("Portfolio", () => `
       <div class="overlay" data-course-overlay></div>
       <section class="testimonials-modal">
         <button class="modal-close-btn" data-course-close>
-          <ion-icon name="close-outline"></ion-icon>
+          <i class="fa-solid fa-xmark" name="close-outline"></i>
         </button>
         <div class="modal-content">
           <h4 class="h3 modal-title" data-course-title></h4>
