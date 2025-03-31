@@ -1607,7 +1607,7 @@ font-weight: var(--fw600);
         width:40%;
     }
     .about-text>p{
-        font-size:16px;
+        font-size:12px;
     }
     .main-page-image{
         /* z-index:-10; */
