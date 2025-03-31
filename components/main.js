@@ -3,9 +3,9 @@ App.define("Main", () => `
     ${App.renderComponent("Sidebar")}
     <div class="main-content">
       ${App.renderComponent("Navbar")}
-      ${App.renderComponent("About")}
-      ${App.renderComponent("Portfolio")}
-      ${App.renderComponent("Contact")}
+      ${App.renderComponent("Home")}
+      ${App.renderComponent("Courses")}
+      ${App.renderComponent("Apply")}
     </div>
   </main>
   <script src="script.js"></script>

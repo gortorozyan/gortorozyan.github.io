@@ -1,8 +1,8 @@
-App.define("About", () => `
-  <article class="about active" data-page="about" id='nav_1_main'>
+App.define("Home", () => `
+  <article class="about active" data-page="home" id='nav_1_main'>
 
     <header>
-      <h2 class="h3 article-title">About Us</h2>
+      <h2 class="h3 article-title">Home</h2>
     </header>
     <section class="about-text">
          <p class="colcolorgr">START YOUR JOURNEY WITH US</p>

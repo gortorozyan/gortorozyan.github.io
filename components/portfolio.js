@@ -1,5 +1,5 @@
-App.define("Portfolio", () => `
-  <article class="about" data-page="portfolio" id='nav_2_main'>
+App.define("Courses", () => `
+  <article class="about" data-page="courses" id='nav_2_main'>
 
    <header><h2 class="h3 article-title">Courses & Packages</h2></header>
 

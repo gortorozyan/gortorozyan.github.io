@@ -1604,14 +1604,16 @@ font-weight: var(--fw600);
     }
     .apply_now{
         font-size:10px;
-        width:40%;
+        width:30%;
+        height:30px;
+        margin-left:3%;
     }
     .about-text>p{
         font-size:12px;
     }
     .main-page-image{
         /* z-index:-10; */
-        margin-left:50%;
+        margin-left:51.5%;
         width:40%;
         height:150px;
         margin-top:-210px;
@@ -1658,6 +1660,9 @@ font-weight: var(--fw600);
     .navbar{
         position: fixed;
         margin-top:100px;
+    }
+    .navbar-list>li{
+        font-weight:900;
     }
 }
 

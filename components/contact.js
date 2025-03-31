@@ -1,7 +1,7 @@
-App.define("Contact", () => `
-  <article class="contact" data-page="contact" id='nav_3_main'>
+App.define("Apply", () => `
+  <article class="contact" data-page="apply" id='nav_3_main'>
     <header>
-      <h2 class="h3 article-title">APPLY</h2>
+      <h2 class="h3 article-title">Apply</h2>
     </header><br/><br/>
     <section class="contact-form">
       <form action="#" class="form" data-form>
