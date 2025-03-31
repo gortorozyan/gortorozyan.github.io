@@ -280,6 +280,8 @@ const translations = {
 
 
 const langSelect = document.getElementById("choose-lang");
+const langSelect2 = document.getElementById('choose-lang-2')
+
 function changeLanguage() {
   const selectedLang = langSelect.value;
 
@@ -295,4 +297,19 @@ document.getElementById("choose-lang").addEventListener("change", changeLanguage
 
 changeLanguage();
 
+
+function changeLanguage2() {
+  const selectedLang = langSelect2.value;
+
+  for (let key in translations[selectedLang]) {
+      let element = document.getElementById(key); 
+      if (element) {
+          element.textContent = translations[selectedLang][key]; 
+      }
+  }
+}
+
+document.getElementById("choose-lang-2").addEventListener("change", changeLanguage2)
+
+changeLanguage2();
 

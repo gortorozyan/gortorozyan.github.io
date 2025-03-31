@@ -1597,8 +1597,28 @@ font-weight: var(--fw600);
     margin-left:20%;
 }
 
+#choose-lang-2-but>{
+    display: none;
+}
+
+#choose-lang-2{
+    display: none;
+    position: absolute;
+    background:#9acc3c;
+    height:25px;
+    border-radius:5px;
+    border:solid 1px #051113;
+    font-weight:700;
+    margin-left:60%;
+    margin-top:1.7%;
+}
+
+
 
 @media (max-width: 670px) {
+    .title{
+        margin-left:-2.5%;
+    }
     .course-btn{
         margin-left:30%;
     }
@@ -1663,9 +1683,16 @@ font-weight: var(--fw600);
     }
 
     #choose-lang{
-        position: absolute;
-        margin-top:-560px;
+        margin-top:-360px;
         margin-left:2%;
+        color: #051113;
+        display: none;
+    }
+    #choose-lang-2-but{
+        display: block;
+    }
+    #choose-lang-2{
+        display: block;
     }
 }
 

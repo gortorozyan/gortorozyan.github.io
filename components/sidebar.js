@@ -4,6 +4,12 @@ App.define("Sidebar", () => `
       <figure class="avatar-box">
         <img src="https://i.postimg.cc/J0zQSJLt/codenex-logo-Photoroom.png" alt="avatar" width="80">
       </figure>
+         <button id='choose-lang-2-but'>
+          <select id="choose-lang-2" name="choose-lang">
+          <option class='usa-opt' value="english">EN</option>
+          <option class='armenian-opt' value="armenian">AM</option>
+          </select>
+        </button>
 
       <div class="info-content">
         <h1 class="name" title="Codeenex">Codeenex</h1>
