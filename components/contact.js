@@ -20,9 +20,8 @@ App.define("Apply", () => `
 
           </select>
           </div>
-        <button class="form-btn" type="submit" disabled data-form-btn>
-          <ion-icon name="paper-plane"></ion-icon>
-          <span>Send Message</span>
+        <button id='trans_text32' class="form-btn" type="submit" disabled data-form-btn>
+          <span>APPLY</span>
         </button>
       </form>
     </section>

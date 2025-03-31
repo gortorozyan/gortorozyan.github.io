@@ -1587,7 +1587,7 @@ font-weight: var(--fw600);
 }
 
 
-#footer-last-text{
+.footer-last-text{
     color: #94a674;
     font-size:15px;
     text-decoration:underline;
@@ -1610,6 +1610,7 @@ font-weight: var(--fw600);
     }
     .about-text>p{
         font-size:12px;
+        font-family: sans-serif;
     }
     .main-page-image{
         /* z-index:-10; */
@@ -1634,7 +1635,7 @@ font-weight: var(--fw600);
         outline: none;
         font-weight:700;
     }
-    #footer-last-text{
+    .footer-last-text{
         font-size:10px;
         margin-left:20px;
         margin-top:10px;
@@ -1660,6 +1661,20 @@ font-weight: var(--fw600);
     .navbar-list>li{
         font-weight:900;
     }
+
+    #choose-lang{
+        position: absolute;
+        margin-top:-560px;
+        margin-left:2%;
+    }
 }
 
+
+#choose-lang{
+    background:#9acc3c;
+    height:30px;
+    border-radius:5px;
+    border:solid 1px #051113;
+    font-weight:700;
+}
 

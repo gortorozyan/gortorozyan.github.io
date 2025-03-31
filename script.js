@@ -170,6 +170,7 @@ courseBtns.forEach(btn => {
     openCourseModal(courseKey);
   });
 });
+
 courseCloseBtn.addEventListener('click', closeCourseModal);
 courseOverlay.addEventListener('click', closeCourseModal);
 
@@ -189,7 +190,6 @@ function apply_click(){
   nav_2_main.classList.remove('active')
   nav_3_main.classList.add('active')
   document.getElementById('choose-course').value = courseTitle.innerHTML + '_opt'
-    
 }
 
 let apply_now = document.getElementById('apply_now')
@@ -200,4 +200,99 @@ function apply_click2(){
     nav_1_main.classList.remove('active')
     nav_3_main.classList.add('active')
 }
+
+
+const translations = {
+  english: {
+    trans_text1:"START YOUR JOURNEY WITH US",
+    trans_text2:"BECOME A PROGRAMMER",
+    trans_text3:"STUDY NOW!",
+    trans_text4:"APPLY NOW!",
+    trans_text5:'What We Offer',
+    trans_text6:'Education',
+    trans_text7:'Software Development',
+    trans_text8:'Programming education based on practical, hands-on experience',
+    trans_text9:'Efficient and precise technological services tailored to meet the modern demands of businesses',
+    trans_text10:'© All Rights Reserved | Codeenex 2025',
+    trans_text11:'EMAIL',
+    trans_text12:'PHONE',
+    trans_text13:'LOCATION',
+    trans_text14:'Duration: 5 months',
+    trans_text15:'Duration: 3 months',
+    trans_text16:'Duration: 3 months',
+    trans_text17:'Duration: 4 months',
+    trans_text18:'Duration: 3 months',
+    trans_text19:'Duration: 5 months',
+    trans_text20:'View the course',
+    trans_text21:'View the course',
+    trans_text22:'View the course',
+    trans_text23:'View the course',
+    trans_text24:'View the course',
+    trans_text25:'View the course',
+    trans_text26:'Learn JavaScript to create interactive websites',
+    trans_text27:'Learn PHP and Laravel to build dynamic web pages and applications',
+    trans_text28:'Learn Python and create programs and apps',
+    trans_text29:'Learn React.js to build interactive and dynamic websites',
+    trans_text30:'Learn Next.js to build fast and modern websites',
+    trans_text31:'Learn Python and Django to build powerful and scalable websites',
+    trans_text32:'APPLY',
+  },
+  armenian: {
+    trans_text1:"Սկսեք ձեր ճանապարհորդությունը մեզ հետ",
+    trans_text2:"Դառնացեք ծրագրավորող",
+    trans_text3:"Սկսեք սովորել հիմա!",
+    trans_text4:"Դիմել հիմա!",
+    trans_text5:"Ինչ ենք առաջարկում",
+    trans_text6:"Կրթություն",
+    trans_text7:"Ծրագրային ապահովման մշակում",
+    trans_text8:"Ծրագրավորման ուսուցում, հիմնված գործնական փորձով",
+    trans_text9:"Օգտակար և ճշգրիտ տեխնոլոգիական ծառայություններ, որոնք հարմարեցված են ժամանակակից բիզնես պահանջներին",
+    trans_text10:"© Բոլոր իրավունքները պաշտպանված են | Codeenex 2025",
+    trans_text11:'ՓՈՍՏ',
+    trans_text12:'ՀԵՌԱԽՈՍ',
+    trans_text13:'ՀԱՍՑԵ',
+    trans_text14:'Տևողությունը: 5 ամիս',
+    trans_text15:'Տևողությունը: 3 ամիս',
+    trans_text16:'Տևողությունը: 3 ամիս',
+    trans_text17:'Տևողությունը: 4 ամիս',
+    trans_text18:'Տևողությունը: 3 ամիս',
+    trans_text19:'Տևողությունը: 5 ամիս',
+    trans_text20:'Դիտել դասընթացը',
+    trans_text21:'Դիտել դասընթացը',
+    trans_text22:'Դիտել դասընթացը',
+    trans_text23:'Դիտել դասընթացը',
+    trans_text24:'Դիտել դասընթացը',
+    trans_text25:'Դիտել դասընթացը',
+    trans_text26: 'Սովորեք JavaScript ինտերակտիվ վեբ կայքեր ստեղծելու համար',  
+    trans_text27: 'Սովորեք PHP և Laravel դինամիկ վեբ էջեր և հավելվածներ կառուցելու համար',  
+    trans_text28: 'Սովորեք Python և ստեղծեք ծրագրեր ու հավելվածներ',  
+    trans_text29: 'Սովորեք React.js ինտերակտիվ և դինամիկ վեբ կայքեր կառուցելու համար',  
+    trans_text30: 'Սովորեք Next.js արագ և ժամանակակից վեբ կայքեր ստեղծելու համար',  
+    trans_text31: 'Սովորեք Python և Django հզոր և մեծ մաշտաբի վեբ կայքեր կառուցելու համար',
+    trans_text32:'Գրանցվել',
+  },
+}
+
+
+
+
+
+
+
+const langSelect = document.getElementById("choose-lang");
+function changeLanguage() {
+  const selectedLang = langSelect.value;
+
+  for (let key in translations[selectedLang]) {
+      let element = document.getElementById(key); 
+      if (element) {
+          element.textContent = translations[selectedLang][key]; 
+      }
+  }
+}
+
+document.getElementById("choose-lang").addEventListener("change", changeLanguage)
+
+changeLanguage();
+
 

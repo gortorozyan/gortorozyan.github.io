@@ -11,9 +11,10 @@ require 'vendor/autoload.php'; // Համոզվիր, որ composer-ով տեղա�
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name    = htmlspecialchars(trim($_POST['fullname']));
     $email   = htmlspecialchars(trim($_POST['email']));
-    $message = htmlspecialchars(trim($_POST['message']));
+    $phone = htmlspecialchars(trim($_POST['phone']));
+    $course = htmlspecialchars(trim($_POST['course']));
 
-    if (empty($name) || empty($email) || empty($message)) {
+    if (empty($name) || empty($email) || empty($phone) || empty($course)) {
         http_response_code(400);
         echo 'Լրացրեք բոլոր դաշտերը։';
         exit;
@@ -35,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->addReplyTo($email, $name); // Որ օգտատերը պատասխանի, քո inbox կգա
 
         $mail->Subject = 'Կոնտակտ Ֆորմայի Նամակ';
-        $mail->Body    = "Անուն: $name\nԷլ․ հասցե: $email\n\nՆամակ:\n$message";
+        $mail->Body    = "Անուն: $name\nԷլ․ հասցե: $email\n\nՆամակ:\n$phone";
 
         $mail->send();
         echo 'Նամակը հաջողությամբ ուղարկվել է։';

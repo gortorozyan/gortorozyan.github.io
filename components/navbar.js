@@ -10,6 +10,14 @@ App.define("Navbar", () => `
       <li class="navbar-item">
         <button class="navbar-link" id='nav_3' data-nav-link>Apply</button>
       </li>
+      <li class="navbar-item">
+        <button>
+          <select id="choose-lang" name="choose-lang">
+          <option class='usa-opt' value="english">EN</option>
+          <option class='armenian-opt' value="armenian">AM</option>
+          </select>
+        </button>
+      </li>
     </ul>
   </nav>
 `);

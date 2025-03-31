@@ -22,7 +22,7 @@ App.define("Sidebar", () => `
         <li class="contact-item">
           <div class="icon-box"><span class="material-symbols-outlined">mail</span></div>
           <div class="contact-info">
-            <p class="contact-title">Email</p>
+            <p class="contact-title" id='trans_text11'>Email</p>
            <a href="mailto:support@codeenex.com" class="contact-link colcolorbl">support@codeenex.com</a>
           </div>
         </li>
@@ -30,7 +30,7 @@ App.define("Sidebar", () => `
         <li class="contact-item">
           <div class="icon-box"><span class="material-symbols-outlined">phone_iphone</span></div>
           <div class="contact-info">
-            <p class="contact-title">Phone</p>
+            <p class="contact-title" id='trans_text12'>Phone</p>
           <a href="tel:+12133522795" class="contact-link" onclick="return confirm('Call this number?')">+ (374) 55-64-66-56</a>
           </div>
         </li>
@@ -38,7 +38,7 @@ App.define("Sidebar", () => `
         <li class="contact-item">
           <div class="icon-box"><span class="material-symbols-outlined">location_on</span></div>
           <div class="contact-info">
-            <p class="contact-title">Location</p>
+            <p class="contact-title" id='trans_text13'>Location</p>
             <address>Armenia. Yerevan Vratsakan 7/11</address>
           </div>
         </li>
