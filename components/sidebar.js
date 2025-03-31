@@ -39,7 +39,7 @@ App.define("Sidebar", () => `
           <div class="icon-box"><span class="material-symbols-outlined">location_on</span></div>
           <div class="contact-info">
             <p class="contact-title">Location</p>
-            <address>Armenia. Yerevan Vracakan 7/11</address>
+            <address>Armenia. Yerevan Vratsakan 7/11</address>
           </div>
         </li>
       </ul>
