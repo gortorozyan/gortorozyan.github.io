@@ -1607,14 +1607,14 @@ font-weight: var(--fw600);
         width:40%;
     }
     .about-text>p{
-        font-size:15px;
+        font-size:16px;
     }
     .main-page-image{
         /* z-index:-10; */
-        margin-left:58%;
-        width:30%;
-        height:100px;
-        margin-top:-165px;
+        margin-left:50%;
+        width:40%;
+        height:150px;
+        margin-top:-210px;
         position: absolute;
     }
 
@@ -1642,6 +1642,18 @@ font-weight: var(--fw600);
         width:50%;
         margin-left:25%;
         font-size:12px;
+    }
+
+    #choose-course{
+        background-color: #051113;
+        color: #94a674;
+        border:2px solid #94a674;
+        border-radius:5px;
+        height:50px;
+        text-align: left; /* Align text to the left */
+        text-align-last: left; /* Ensures alignment in some browsers */
+        padding-left: 15px; /* Adds spacing for better appearance */
+        font-weight:600;
     }
 }
 
