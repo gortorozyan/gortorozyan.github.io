@@ -11,7 +11,7 @@ App.define("Navbar", () => `
         <button class="navbar-link" id='nav_3' data-nav-link>Apply</button>
       </li>
       <li class="navbar-item">
-        <button>
+        <button id='but-choose'>
           <select id="choose-lang" name="choose-lang">
           <option class='usa-opt' value="english">EN</option>
           <option class='armenian-opt' value="armenian">AM</option>
