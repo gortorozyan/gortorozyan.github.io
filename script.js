@@ -152,6 +152,65 @@ const courseData = {
     opt_value: 'django_opt'
   }
 };
+
+const courseData_hy = {
+  javascript: {
+    title: "JavaScript Դասընթաց",
+    lessons: [
+        'JavaScript ծրագրավորման խորացված դասընթաց',
+        'Դասընթացի տևողությունը՝ 4.5 ամիս, շաբաթական 2 դաս (յուրաքանչյուրը՝ 1.5-2 ժամ)',
+        'Ամսավճարը՝ 30,000 դրամ',
+    ],
+    opt_value: 'js_opt'
+  },
+  php: {
+    title: "PHP (Laravel) Դասընթաց",
+    lessons: [
+      'PHP (Laravel) ծրագրավորման խորացված դասընթաց',
+      'Դասընթացի տևողությունը՝ 4 ամիս, շաբաթական 2 դաս (յուրաքանչյուրը՝ 1.5-2 ժամ)',
+      'Ամսավճարը՝ 30,000 դրամ',
+    ],
+    opt_value: 'php_opt'
+  },
+  python: {
+    title: "Python Դասընթաց",
+    lessons: [
+      'Python ծրագրավորման խորացված դասընթաց',
+      'Դասընթացի տևողությունը՝ 3 ամիս, շաբաթական 2 դաս (յուրաքանչյուրը՝ 1.5-2 ժամ)',
+      'Ամսավճարը՝ 40,000 դրամ',
+    ],
+    opt_value: 'py_opt'
+  },
+  react_js: {
+    title: "React.js Դասընթաց",
+    lessons: [
+      'React.js ծրագրավորման խորացված դասընթաց',
+      'Դասընթացի տևողությունը՝ 4 ամիս, շաբաթական 2 դաս (յուրաքանչյուրը՝ 1.5-2 ժամ)',
+      'Ամսավճարը՝ 40,000 դրամ',
+    ],
+    opt_value: 'react_opt'
+  },
+  next_js: {
+    title: "Next.js Դասընթաց",
+    lessons: [
+      'Next.js ծրագրավորման խորացված դասընթաց',
+      'Դասընթացի տևողությունը՝ 3 ամիս, շաբաթական 2 դաս (յուրաքանչյուրը՝ 1.5-2 ժամ)',
+      'Ամսավճարը՝ 40,000 դրամ',
+    ],
+    opt_value: 'next_opt'
+  }, 
+  django: {
+    title: "Python (Django) Դասընթաց",
+    lessons: [
+      'Python (Django) ծրագրավորման խորացված դասընթաց',
+      'Դասընթացի տևողությունը՝ 5 ամիս, շաբաթական 2 դաս (յուրաքանչյուրը՝ 1.5-2 ժամ)',
+      'Ամսավճարը՝ 40,000 դրամ',
+    ],
+    opt_value: 'django_opt'
+  }
+};
+
+
 function openCourseModal(courseKey) {
   const data = courseData[courseKey];
   if (!data) return;
@@ -168,6 +227,8 @@ courseBtns.forEach(btn => {
   btn.addEventListener('click', () => {
     const courseKey = btn.getAttribute('data-course');
     openCourseModal(courseKey);
+    console.log(courseTitle.innerHTML)
+
   });
 });
 
@@ -236,6 +297,7 @@ const translations = {
     trans_text30:'Learn Next.js to build fast and modern websites',
     trans_text31:'Learn Python and Django to build powerful and scalable websites',
     trans_text32:'APPLY',
+    trans_text33:'Apply to course',
   },
   armenian: {
     trans_text1:"Սկսեք ձեր ճանապարհը մեզ հետ",
@@ -270,6 +332,7 @@ const translations = {
     trans_text30: 'Սովորեք Next.js արագ և ժամանակակից վեբ կայքեր ստեղծելու համար',  
     trans_text31: 'Սովորեք Python և Django հզոր և մեծ մաշտաբի վեբ կայքեր կառուցելու համար',
     trans_text32:'Գրանցվել',
+    trans_text33:'Գրանցվել'
   },
 }
 
@@ -291,6 +354,23 @@ function changeLanguage() {
           element.textContent = translations[selectedLang][key]; 
       }
   }
+  function openCourseModal(courseKey) {
+    const data = courseData_hy[courseKey];
+    if (!data) return;
+    courseTitle.innerText = data.title;
+    courseLessons.innerHTML = data.lessons.map(lesson => `<li>${lesson}</li>`).join('');
+    courseModal.classList.add('active');
+    courseOverlay.classList.add('active'); 
+  }
+  courseBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const courseKey = btn.getAttribute('data-course');
+      openCourseModal(courseKey);
+      console.log(courseTitle.innerHTML)
+  
+    });
+  });
+
 }
 
 document.getElementById("choose-lang").addEventListener("change", changeLanguage)
@@ -312,4 +392,6 @@ function changeLanguage2() {
 document.getElementById("choose-lang-2").addEventListener("change", changeLanguage2)
 
 changeLanguage2();
+
+
 

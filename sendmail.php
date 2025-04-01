@@ -12,9 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name    = htmlspecialchars(trim($_POST['fullname']));
     $email   = htmlspecialchars(trim($_POST['email']));
     $phone = htmlspecialchars(trim($_POST['phone']));
-    $course = htmlspecialchars(trim($_POST['course']));
-
-    if (empty($name) || empty($email) || empty($phone) || empty($course)) {
+    if (empty($name) || empty($email) || empty($phone)) {
         http_response_code(400);
         echo 'Լրացրեք բոլոր դաշտերը։';
         exit;

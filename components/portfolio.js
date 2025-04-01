@@ -107,7 +107,7 @@ App.define("Courses", () => `
         <div class="modal-content">
           <h4 class="h3 modal-title" data-course-title></h4>
           <ul class="modal-text" data-course-lessons></ul>
-          <button class='data_course_btn_apply' data_course_btn_apply onclick='apply_click()'>APPLY TO COURSE</button>
+          <button class='data_course_btn_apply' data_course_btn_apply onclick='apply_click()' id='trans_text33'>Apply to course</button>
         </div>
       </section>
     </div>
