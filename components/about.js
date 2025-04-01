@@ -8,7 +8,7 @@ App.define("Home", () => `
          <p class="colcolorgr" id='trans_text1'>START YOUR JOURNEY WITH US</p>
          <p class="colcolorgr" id='trans_text2'>BECOME A PROGRAMMER</p>
         <p class="colcolorgr" id='trans_text3'>STUDY NOW!</p>
-      <button class='apply_now' id='trans_text4' onclick='apply_click2()'>APPLY NOW!</button>
+      <button class='apply_now' id='trans_text4' onclick='apply_click2()'>Apply Now!</button>
    </section>
     <section class="service">
       <h3 class="h4 service-title" id='trans_text5'>What We Offer</h3>

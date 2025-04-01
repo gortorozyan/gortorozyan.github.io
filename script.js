@@ -207,7 +207,7 @@ const translations = {
     trans_text1:"START YOUR JOURNEY WITH US",
     trans_text2:"BECOME A PROGRAMMER",
     trans_text3:"STUDY NOW!",
-    trans_text4:"APPLY NOW!",
+    trans_text4:"Apply Now!",
     trans_text5:'What We Offer',
     trans_text6:'Education',
     trans_text7:'Software Development',
@@ -238,7 +238,7 @@ const translations = {
     trans_text32:'APPLY',
   },
   armenian: {
-    trans_text1:"Սկսեք ձեր ճանապարհորդությունը մեզ հետ",
+    trans_text1:"Սկսեք ձեր ճանապարհը մեզ հետ",
     trans_text2:"Դառնացեք ծրագրավորող",
     trans_text3:"Սկսեք սովորել հիմա!",
     trans_text4:"Դիմել հիմա!",

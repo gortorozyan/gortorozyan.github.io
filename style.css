@@ -1634,10 +1634,10 @@ font-weight: var(--fw600);
     }
     .main-page-image{
         /* z-index:-10; */
-        margin-left:51.5%;
-        width:40%;
-        height:150px;
-        margin-top:-210px;
+        margin-left:59.5%;
+        width:35%;
+        height:130px;
+        margin-top:-190px;
         position: absolute;
     }
 
@@ -1704,4 +1704,5 @@ font-weight: var(--fw600);
     border:solid 1px #051113;
     font-weight:700;
 }
+
 
